@@ -30,7 +30,7 @@ function NavbarSipenting() {
             <Nav.Link to="/" className="nav-link pe-5  navbarcol" style={{ display: "flex", alignItems: "center" }}>
               BLOG <BoxArrowUpRight style={{ marginRight: "5px" }} />
             </Nav.Link>
-            <button type="button" class="btn btn-outline-warning">
+            <button type="button" class="btn btn-outline-warning px-3">
               Login
             </button>
           </Nav>
