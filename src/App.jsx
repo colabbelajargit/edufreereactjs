@@ -1,9 +1,9 @@
-import NavbarSipenting from "./component/Navbar";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-      <NavbarSipenting />
+      <LandingPage />
     </>
   );
 }

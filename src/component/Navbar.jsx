@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import "../style/navbar.css";
 
-function NavbarSipenting() {
+function NavbarEdu() {
   return (
     <Navbar expand="lg" fixed="top" className="nav shadow-sm ">
       <Container>
@@ -40,4 +40,4 @@ function NavbarSipenting() {
   );
 }
 
-export default NavbarSipenting;
+export default NavbarEdu;
