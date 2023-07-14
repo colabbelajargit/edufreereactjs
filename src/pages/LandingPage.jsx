@@ -6,7 +6,7 @@ import { ArrowRight } from "react-bootstrap-icons";
 function LandingPage() {
   return (
     <>
-      <Stack gap={3}>
+      <Stack gap={0}>
         <NavbarEdu />
         <div className="hero hero-view mt-5 p-lg-5" id="hero">
           <Container>
@@ -28,6 +28,41 @@ function LandingPage() {
                 <div className="text-center text-lg-start mt-3">
                   <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688388821/Group_2621_be8sr1.png" className="hero-img img-fluid float-end mx-5" style={{ width: "75%" }} alt="Hero" />
                 </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+
+        <div className="rating-view p-3">
+          <Container>
+            <Row className="d-flex justify-content-between">
+              <Col xs={3} md={1} className="stats-detail">
+                <h2 className="fw-semibold">2100K</h2>
+                <p>Members</p>
+              </Col>
+              <Col xs={3} md={1} className="stats-detail">
+                <h2 className="fw-semibold">100K</h2>
+                <p>Countries</p>
+              </Col>
+              <Col xs={3} md={1} className="stats-detail">
+                <h2 className="fw-semibold">150K</h2>
+                <p>Hotels</p>
+              </Col>
+              <Col xs={3} md={2} className="stats-detail mt-5 fs-3 fw-bold">
+                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688488152/Vector5_nzgr4x.png" style={{ width: "30px" }} alt="Owthest" className="me-3" />
+                Lorem
+              </Col>
+              <Col xs={3} md={2} className="stats-detail mt-5 fs-3 fw-bold">
+                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector1_l9jolm.png" style={{ width: "30px" }} alt="Owthest" className="me-3" />
+                Ditlance
+              </Col>
+              <Col xs={3} md={2} className="stats-detail mt-5 fs-3 fw-bold">
+                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector2_zztvve.png" style={{ width: "30px" }} alt="Owthest" className="me-3" />
+                Owthest
+              </Col>
+              <Col xs={3} md={2} className="stats-detail mt-5 fs-3 fw-bold">
+                <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688487658/Vector3_tsjiur.png" style={{ width: "30px" }} alt="Owthest" className="me-3" />
+                Neovasi
               </Col>
             </Row>
           </Container>
