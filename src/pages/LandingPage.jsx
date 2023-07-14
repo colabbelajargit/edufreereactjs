@@ -1,5 +1,5 @@
 import NavbarEdu from "../component/Navbar";
-import { Container, Row, Col, Stack, Button } from "react-bootstrap";
+import { Container, Row, Col, Stack, Button, Card } from "react-bootstrap";
 import "../style/landingpage.css";
 import { ArrowRight } from "react-bootstrap-icons";
 
@@ -73,6 +73,66 @@ function LandingPage() {
             Keuntungan Bergabung Dengan <br />
             E-Learning EDUFREE
           </h2>
+        </div>
+        <div className="">
+          <Container>
+            <Row className="mx-auto mt-5">
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-1_p5naqp.png" className="imgnumber" />
+                    <h3 class="my-3 fw-medium fs-3">Kursus Gratis</h3>
+                    <p className="fw-regular">Kami menyediakan beberapa kursus gratis untuk menunjang ketersediaan pendidikan untuk masyarakat kurang mampu</p>
+                  </Container>
+                </Card>
+              </Col>
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-2_qqit37.png" className="imgnumber" />
+                    <h3 class="my-3 fw-medium fs-3">Akses Selamanya</h3>
+                    <p className="fw-regular">Semua kursus yang telah kamu daftar bisa diakses selamanya sehingga belajar kamu lebih nyaman dan tidak terburu-buru </p>
+                  </Container>
+                </Card>
+              </Col>
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-3_k31dvk.png" className="imgnumber" />
+                    <h3 class="my-3 fw-medium fs-3">Grup Konsultasi</h3>
+                    <p className="fw-regular">Terdapat grup konsultasi yang berguna jika kamu ingin menanyakan suatu pertanyaan dan kamu juga bisa mebuka diskusi baru </p>
+                  </Container>
+                </Card>
+              </Col>
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-4_i5pews.png" className="imgnumber" />
+                    <h3 className="my-3 fw-medium fs-3">Sertifikat dan Portofolio</h3>
+                    <p className="fw-regular">Setelah menyelesaikan kursus kamu akan mendapatkan sertifikat serta portofolio dari project kursus yang telah diselesaikan</p>
+                  </Container>
+                </Card>
+              </Col>
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-5_qxkv0d.png" className="imgnumber" />
+                    <h3 className="my-3 fw-medium fs-3">Belajar Lebih Terarah</h3>
+                    <p className="fw-regular">Kursus menyediakan kursus dari level dasar hingga expert sehingga semua bisa belajar dengan layanan yang kami sediakan</p>
+                  </Container>
+                </Card>
+              </Col>
+              <Col lg={4} md={6} sm={12} className=" number mb-5">
+                <Card className="number-card" style={{ backgroundColor: "#F4F6FC" }}>
+                  <Container className="p-3 number">
+                    <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688591107/num-6_dwslv9.png" className="imgnumber" />
+                    <h3 className="my-3 fw-medium fs-3">Instruktur Mahir</h3>
+                    <p className="fw-regular">Kami mempunyai instruktur berpengalaman yang diambil dari dunia industri yang tak diragukan lagi pengalamannya</p>
+                  </Container>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </Stack>
     </>
