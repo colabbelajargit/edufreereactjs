@@ -134,6 +134,24 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
+        <div className="tentangkami-view mt-5 " id="tentangkami">
+          <Container>
+            <Row className="mb-md-0 mb-5 text-center">
+              <Col lg={6} py-lg-5>
+                <div className="tentangkami-content py-5">
+                  <h6 className="text-lg-start">Tentang Kami</h6>
+                  <h1 className="text-lg-start fw-bold main-title  fw-semibold fs-2 mb-3 ">EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</h1>
+                  <p className="text-lg-start mt-lg-2 main-content fs-5 ">Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan</p>
+                </div>
+              </Col>
+              <Col lg={6}>
+                <div className="text-center text-lg-start mt-3">
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1688599882/feature-image_y9dhas.png" className="hero-img img-fluid float-end mx-5" style={{ width: "75%" }} alt="Hero" />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </Stack>
     </>
   );
