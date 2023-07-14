@@ -18,16 +18,16 @@ function NavbarEdu() {
             <Nav.Link to="/" className="nav-link active pe-5" aria-current="page" style={{ color: "white", fontWeight: "bold" }}>
               HOME
             </Nav.Link>
-            <Nav.Link to="/" className="nav-link pe-5 navbarcol">
+            <Nav.Link to="/" className="nav-link pe-5  text-white">
               TENTANG KAMI
             </Nav.Link>
-            <Nav.Link to="/" className="nav-link pe-5  navbarcol">
+            <Nav.Link to="/" className="nav-link pe-5 text-white ">
               KURSUS
             </Nav.Link>
-            <Nav.Link to="/" className="nav-link pe-5  navbarcol">
+            <Nav.Link to="/" className="nav-link pe-5  text-white">
               FAQ
             </Nav.Link>
-            <Nav.Link to="/" className="nav-link pe-5  navbarcol" style={{ display: "flex", alignItems: "center" }}>
+            <Nav.Link to="/" className="nav-link pe-5 text-white " style={{ display: "flex", alignItems: "center" }}>
               BLOG <BoxArrowUpRight style={{ marginRight: "5px" }} />
             </Nav.Link>
             <button type="button" class="btn btn-outline-warning px-3">
