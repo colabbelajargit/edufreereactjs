@@ -67,6 +67,13 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
+
+        <div className="keuntungan-cursus mt-5 p-lg-5">
+          <h2 className="text-center fs-3 fw-semibold">
+            Keuntungan Bergabung Dengan <br />
+            E-Learning EDUFREE
+          </h2>
+        </div>
       </Stack>
     </>
   );
