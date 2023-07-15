@@ -1,5 +1,5 @@
 import NavbarEdu from "../component/Navbar";
-import { Container, Row, Col, Stack, Button, Card } from "react-bootstrap";
+import { Container, Row, Col, Stack, Button, Card, Dropdown } from "react-bootstrap";
 import "../style/landingpage.css";
 import { ArrowRight } from "react-bootstrap-icons";
 
@@ -139,7 +139,7 @@ function LandingPage() {
             <Row className="mb-md-0 mb-5 text-center">
               <Col lg={6} py-lg-5>
                 <div className="tentangkami-content py-5">
-                  <h6 className="text-lg-start">Tentang Kami</h6>
+                  <h5 className="text-lg-start fw-5">Tentang Kami</h5>
                   <h1 className="text-lg-start fw-bold main-title  fw-semibold fs-2 mb-3 ">EDUFREE Layanan E-Learning Gratis Untuk Membantu Kamu Bertumbuh</h1>
                   <p className="text-lg-start mt-lg-2 main-content fs-5 ">Edufree diharapkann bisa menjadi layanan yang bermanfaat bagi kedepanya dalam bidang pendidikan</p>
                 </div>
@@ -150,6 +150,32 @@ function LandingPage() {
                 </div>
               </Col>
             </Row>
+          </Container>
+        </div>
+
+        <div className="recomendasi mt-5">
+          <Container className="mt-5">
+            <Row className="mb-md-0 mb-5 text-center ">
+              <Col lg={6} py-lg-5>
+                <h1 className="text-lg-start fw-bold main-title fw-semibold fs-2 mb-3">
+                  Rekomendasi Kursus <br /> Untuk Kamu
+                </h1>
+              </Col>
+              <Col lg={6}>
+                <Dropdown>
+                  <Dropdown.Toggle variant="primary" id="dropdown-basic" className="me-2" style={{ backgroundColor: "transparent", color: "black", border: "none" }}>
+                    Pilih Kategori
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                  </Dropdown.Menu>
+                  <Button variant="warning px-4 ">Lihat Cursus</Button>{" "}
+                </Dropdown>
+              </Col>
+            </Row>
+            <hr />
           </Container>
         </div>
       </Stack>
