@@ -2,6 +2,9 @@ import NavbarEdu from "../component/Navbar";
 import { Container, Row, Col, Stack, Button, Card, Dropdown } from "react-bootstrap";
 import "../style/landingpage.css";
 import { ArrowRight } from "react-bootstrap-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faPlayCircle, faUsers } from "@fortawesome/free-solid-svg-icons";
 
 function LandingPage() {
   return (
@@ -178,6 +181,118 @@ function LandingPage() {
             <hr />
           </Container>
         </div>
+        <Container>
+          <Row className="mx-auto mt-5">
+            <Col lg={4} md={6} sm={12} className="mb-5">
+              <a class="course-card" href="index.html">
+                <img class="imgcourse" src="https://res.cloudinary.com/dlrskr4dh/image/upload/v1688725052/unsplash_m_HRfLhgABo_nvsgt9.png" alt="course" />
+
+                <div class="rating-box pe-3">
+                  <div class="rating-star ms-2">
+                    <FontAwesomeIcon icon={faStar} /> {/* Ganti <i> dengan <FontAwesomeIcon> */}
+                  </div>
+                  <div class="rating-text">4.9</div>
+                </div>
+
+                <Container>
+                  <h4 class="mt-3 fw-medium title">Dasar Pemrograman WEB</h4>
+                  <h5 class="desc fw-light">Materi pembelajarn mengenai pembuatan website tingkat pemula</h5>
+                </Container>
+                <Container className="mt-3">
+                  <div className="row">
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faClock} /> 4,5 jam
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faPlayCircle} /> 20 video
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faUsers} /> 1900 siswa
+                      </div>
+                    </div>
+                  </div>
+                </Container>
+              </a>
+            </Col>
+            <Col lg={4} md={6} sm={12} className="mb-5">
+              <a class="course-card" href="index.html">
+                <img class="imgcourse" src="https://res.cloudinary.com/dlrskr4dh/image/upload/v1688555827/samples/edufree/pexels-lukas-590016_1_qeibtu.png" alt="course" />
+
+                <div class="rating-box pe-3">
+                  <div class="rating-star ms-2">
+                    <FontAwesomeIcon icon={faStar} /> {/* Ganti <i> dengan <FontAwesomeIcon> */}
+                  </div>
+                  <div class="rating-text">4.9</div>
+                </div>
+
+                <Container>
+                  <h4 class="mt-3 fw-medium title">Digital Marketing 101</h4>
+                  <h5 class="desc fw-light">Materi mengenai strategi dan konsep marketing pemula</h5>
+                </Container>
+                <Container className="mt-3">
+                  <div className="row">
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faClock} /> 4,5 jam
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faPlayCircle} /> 20 video
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faUsers} /> 930 siswa
+                      </div>
+                    </div>
+                  </div>
+                </Container>
+              </a>
+            </Col>
+            <Col lg={4} md={6} sm={12} className="mb-5">
+              <a class="course-card" href="index.html">
+                <img class="imgcourse" src="https://res.cloudinary.com/dlrskr4dh/image/upload/v1688555789/samples/edufree/pexels-olya-kobruseva-5561923_1_v003te.png" alt="course" />
+
+                <div class="rating-box pe-3">
+                  <div class="rating-star ms-2">
+                    <FontAwesomeIcon icon={faStar} /> {/* Ganti <i> dengan <FontAwesomeIcon> */}
+                  </div>
+                  <div class="rating-text">4.9</div>
+                </div>
+
+                <Container>
+                  <h4 class="mt-3 fw-medium title">Data Science Dasar</h4>
+                  <h5 class="desc fw-light">Materi pembelajaran mengenai dasar-dasar data science</h5>
+                </Container>
+                <Container className="mt-3">
+                  <div className="row">
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faClock} /> 4,5 jam
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faPlayCircle} /> 20 video
+                      </div>
+                    </div>
+                    <div className="col-4">
+                      <div className="icon-text">
+                        <FontAwesomeIcon icon={faUsers} /> 1030 siswa
+                      </div>
+                    </div>
+                  </div>
+                </Container>
+              </a>
+            </Col>
+          </Row>
+        </Container>
       </Stack>
     </>
   );
