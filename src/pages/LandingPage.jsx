@@ -5,6 +5,8 @@ import { ArrowRight } from "react-bootstrap-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faClock, faPlayCircle, faUsers } from "@fortawesome/free-solid-svg-icons";
+import TestimonialCarousel from "../component/caousel";
+import Accordion from "react-bootstrap/Accordion";
 
 function LandingPage() {
   return (
@@ -181,7 +183,7 @@ function LandingPage() {
             <hr />
           </Container>
         </div>
-        <Container>
+        <Container className="mb-5">
           <Row className="mx-auto mt-5">
             <Col lg={4} md={6} sm={12} className="mb-5">
               <a class="course-card" href="index.html">
@@ -293,6 +295,83 @@ function LandingPage() {
             </Col>
           </Row>
         </Container>
+        <div className="couselbg mb-5">
+          <Container className="mt-5 mb-5">
+            <Row>
+              <Col lg={6} md={6} sm={12}>
+                <h1>Kata Mereka Tentang</h1>
+                <h1> Kursus EDUFREE</h1>
+              </Col>
+              <Col lg={6} md={6} sm={12}>
+                <TestimonialCarousel />
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="mt-5">
+          <Container>
+            <Row>
+              <Col sm={12} md={4} lg={4}>
+                <h1>
+                  Frequently Asked <br /> Questions
+                </h1>
+              </Col>
+              <Col sm={12} md={8} lg={8}>
+                <Accordion defaultActiveKey="0">
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="3">
+                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="5">
+                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Body>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                      id est laborum.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </Col>
+            </Row>
+          </Container>
+          \
+        </div>
       </Stack>
     </>
   );
