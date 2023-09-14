@@ -370,8 +370,41 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
-          \
         </div>
+        <section className="registration mt-5">
+          <div className="container">
+            <div className="box row mb-5">
+              <div className="box-left col-lg-6 col-md-12">
+                <h2 className="mt-3 text-white">Selangkah Lebih Dekat Dengan Impianmu</h2>
+                <p className="mt-3 mb-3 text-white">Sebuah layanan E-Learning gratis yang siap membantumu menjadi seorang ahli</p>
+              </div>
+              <div className="box-right col-lg-6 col-md-12">
+                <h3>Daftarkan Dirimu!</h3>
+                <p>Persiapkan diri untuk masa depan yang penuh bintang</p>
+                <form>
+                  <div className="mb-3">
+                    <input type="text" className="form-control" id="exampleInputText1" placeholder="Your Name" />
+                  </div>
+                  <div className="mb-3">
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+                  </div>
+                  <div className="mb-3">
+                    <input type="password" id="inputPassword5" className="form-control" aria-labelledby="passwordHelpBlock" placeholder="Password" />
+                  </div>
+                  <button type="submit" className="btn w-100">
+                    DAFTAR
+                  </button>
+                </form>
+                <p className="text-center mt-3">
+                  Sudah punya akun?{" "}
+                  <a href="#" className="text-decoration-none text-light">
+                    Login
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </Stack>
     </>
   );

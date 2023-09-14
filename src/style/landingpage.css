@@ -78,3 +78,37 @@
 .couselbg {
   background-color: #eef4fa;
 }
+.registration {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.registration .box-left {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/ddzkvbulh/image/upload/v1689152365/regis-img_vll6cq.png");
+  background-size: cover;
+  padding: 100px;
+  color: var(--font);
+}
+
+.registration .box-left h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.registration .box-left p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.registration .box-right {
+  background-color: #1c1e53;
+  color: #fafafa;
+  padding: 100px;
+}
+
+.registration .box-right .btn {
+  background-color: #fcd980;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+}
