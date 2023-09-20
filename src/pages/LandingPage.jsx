@@ -7,6 +7,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faClock, faPlayCircle, faUsers } from "@fortawesome/free-solid-svg-icons";
 import TestimonialCarousel from "../component/caousel";
 import Accordion from "react-bootstrap/Accordion";
+import Footer from "../component/footer";
 
 function LandingPage() {
   return (
@@ -465,6 +466,7 @@ function LandingPage() {
             </div>
           </div>
         </section>
+        <Footer />
       </Stack>
     </>
   );
