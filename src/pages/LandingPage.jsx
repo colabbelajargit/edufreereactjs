@@ -37,7 +37,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         <div className="rating-view p-3">
           <Container>
             <Row className="d-flex justify-content-between">
@@ -72,7 +71,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         <div className="keuntungan-cursus mt-5 p-lg-5">
           <h2 className="text-center fs-3 fw-semibold">
             Keuntungan Bergabung Dengan <br />
@@ -157,7 +155,6 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-
         <div className="recomendasi mt-5">
           <Container className="mt-5">
             <Row className="mb-md-0 mb-5 text-center ">
@@ -401,6 +398,69 @@ function LandingPage() {
                     Login
                   </a>
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="blog mb-5 ">
+          <div className="container">
+            <div className="box row">
+              <div className="box-header row mb-5">
+                <h1 className="col-lg-6 col-md-6 col-sm-12">Blog, Berita dan Event</h1>
+                <a className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end align-items-lg-center justify-content-md-end align-items-md-center text-decoration-none" href="#">
+                  Lihat Semua
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                  </svg>
+                </a>
+              </div>
+              <div className="box-content row justify-content-between">
+                {/* Card Blog */}
+                <div className="card col-lg-4 col-md-6 col-sm-12">
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173217/blog-1_daxbao.png" className="card-img-top" alt="blog image" style={{ width: "100%" }} />
+                  <div className="card-body">
+                    <span className="fs-6 text-secondary">19 Jan 2022</span>
+                    <h5 className="card-title">Cara Mudah Untuk Memulai Belajar Programming - EDUFREE</h5>
+                    <p className="card-text">Menjadi seorang programmer saat ini sudah sangat mudah untuk dipelajari oleh siapapun ...</p>
+                    <a href="#" className="fs-6">
+                      Selengkapnya
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                {/* Card Blog */}
+                <div className="card col-lg-4 col-md-6 col-sm-12">
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-2_qywqvg.png" className="card-img-top" alt="blog image" style={{ width: "100%" }} />
+                  <div className="card-body">
+                    <span className="fs-6 text-secondary">19 Jan 2022</span>
+                    <h5 className="card-title">Tips Membuat Website Landing Page Bussines - EDUFREE</h5>
+                    <p className="card-text">Pentingnya website dalam menumbuhkan rasa kepercayaan terhadap bisnis, membuat ...</p>
+                    <a href="#" className="fs-6">
+                      Selengkapnya
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                {/* Card Blog */}
+                <div className="card col-lg-4 col-md-6 col-sm-12">
+                  <img src="https://res.cloudinary.com/ddzkvbulh/image/upload/v1689173213/blog-3_csdcut.png" className="card-img-top" alt="blog image" style={{ width: "100%" }} />
+                  <div className="card-body">
+                    <span className="fs-6 text-secondary">19 Jan 2022</span>
+                    <h5 className="card-title">Cara Installasi Wordpress Untuk Pemula -EDUFREE</h5>
+                    <p className="card-text">Membuat website saat ini sudah bisa tanpa codingan, kini kamu bisa membuatnya dengan ...</p>
+                    <a href="#" className="fs-6">
+                      Selengkapnya
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

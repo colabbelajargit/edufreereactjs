@@ -112,3 +112,41 @@
   font-weight: 600;
   letter-spacing: 0.25rem;
 }
+
+footer {
+  background-color: var(--color-primary);
+  margin-top: 100px;
+  height: 340px;
+}
+
+footer .box-title {
+  color: var(--font);
+}
+
+.contact {
+  color: #0a0a0a;
+  background-color: var(--color-tertiary);
+  width: 420px;
+  height: 88px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.boxfoooter {
+  color: #0a0a0a;
+  background-color: var(--color-tertiary);
+  width: 420px;
+  height: 88px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    line-height: 140%;
+    font-size: 34px;
+  }
+}
